@@ -6,7 +6,7 @@ echo Hello, what is your name?
 read INPUTNAME
 echo "Hello $INPUTNAME! Welcome!"
 echo "I will now create a file with your name!"
-touch "{$INPUTNAME}_file.txt"
+touch "${INPUTNAME}_file.txt"
 echo Enter input to write into the file!
 read FILEINPUT
-echo $FILEINPUT > "{$INPUTNAME}_file.txt"
+echo $FILEINPUT > "${INPUTNAME}_file.txt"
